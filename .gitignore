@@ -3,26 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-
 # Jupyter
 .ipynb_checkpoints
 
@@ -31,7 +11,6 @@ var/
 .venv
 env/
 venv/
-ENV/
 
 # OS files
 .DS_Store
@@ -41,5 +20,6 @@ Thumbs.db
 logs/
 artifacts/*.log
 
-# Don't ignore datasets by default so they can be pushed if small
-# If your data is huge, consider adding data/ to .gitignore
+# IMPORTANT: allow pushing dataset
+# (remove or comment out this if it exists)
+# data/
