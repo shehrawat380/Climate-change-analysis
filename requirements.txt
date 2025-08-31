@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+tensorflow==2.*
+tqdm
+geopandas
+shapely
+folium
+streamlit
+pyyaml
